@@ -1,0 +1,62 @@
+void swap(int *x, int *y) {
+	int aux;
+	aux = *x;
+	*x = *y;
+	*y = aux;
+}
+
+void bubbleSort(int a[], int n) {
+	int i, j;
+	for (i = 0; i < n - 1; i++)
+		for (j = 0; j < n - 1 - i; j++)
+			if (a[j + 1] < a[j])
+				swap(&a[j], &a[j + 1]);
+}
+
+while (dg <= gg) {
+	s = (dg + gg) / 2;
+	if (x == V[s]) {
+		// 1
+		break;
+	}
+	else if (x>V[s]) {
+		dg = s + 1;
+		br++;
+	}
+	else if (x<V[s]) {
+		gg = s - 1;
+		br++;
+	}
+}
+if (dg>gg) //-1;
+
+f = (int*)malloc(n * sizeof(int));
+
+k = (int**)malloc(n * sizeof(int*));
+	for (int i = 0; i < n; i++) {
+		*(k + i) = (int*)malloc(m * sizeof(int));
+		}
+		
+int sub(char s1[], char s2[]) {
+	int i, j, k, t = 0;
+	for (i = 0; s1[i] != '\0'; i++) {
+		if (s2[0] == s1[i]) {
+			for (k = 0; s2[k] != '\0'; k++) {
+				if (s2[k] == s1[i + k]) {
+					t = 1;
+				}
+				else {
+					t = 0;
+					break;
+				}
+			}
+		}
+		if (t == 1) //1;
+	}
+	if (t == 0) //-1;
+}
+
+gl^ if (i < j)
+glˇ if (i > j)
+sp^ if ((i+j)<(n-1))
+spˇ if ((i+j)>=n)
